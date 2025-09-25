@@ -6,4 +6,6 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 
-print("All required libraries are imported.")
+my_data = pd.read_csv('datasets/drug200.csv')
+
+print(my_data.head())
