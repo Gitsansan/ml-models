@@ -8,4 +8,6 @@ from sklearn.tree import DecisionTreeClassifier
 
 my_data = pd.read_csv('datasets/drug200.csv')
 
+
 print(my_data.head())
+print(my_data.isnull().sum())
